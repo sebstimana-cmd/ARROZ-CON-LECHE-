@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para ti Yeymy:\n\nDesde el primer momento supe que eras tú. Tu ojitos, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio, y por llenar mis días de amor. Gracias por estar conmigo en esta pesada etapa.\n\nTe amo pequeña.`;  } else {
+    text = `Para ti Yeimy:\n\nDesde el primer momento supe que eras tú. Tu ojitos, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio, y por llenar mis días de amor. Gracias por estar conmigo en esta pesada etapa.\n\nTe amo pequeña.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
